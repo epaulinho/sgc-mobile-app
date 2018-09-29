@@ -7,9 +7,11 @@ namespace sgc_mobile_app
 {
     public partial class App : Application
     {
+        //Construtor da Classe
         public App()
         {
             InitializeComponent();
+            //Inicia a aplicação com a página Autenticar
             MainPage = new NavigationPage(new Autenticar());
         }
 

@@ -10,13 +10,17 @@ namespace sgc_mobile_app
 {
     public partial class MainPage : ContentPage
     {
+        //Objeto do Usuario Autenticado
         private Usuario usuarioAutenticado;
 
+        //Contrutor da Classe
         public MainPage(Usuario usuario)
         {
             InitializeComponent();
+            //Atribui Usuario para o objeto da classe
             usuarioAutenticado = usuario;
-            lblCumprimento.Text = string.Format("Olá {0)", usuario.Nome);
+            //Escreve o nome do usuário na tela principal
+            lblCumprimento.Text = string.Format("Olá {0}", usuario.Nome);
         }
     }
 }
