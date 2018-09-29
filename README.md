@@ -1,14 +1,14 @@
 # sgc-mobile-app
 
-## SGC - Sistema Gerenciamento de Cursos
+## **SGC - Sistema Gerenciamento de Cursos**
  
  
 ### TCC - Trabalho Conclusão de Curso
 ### PUC Minas Virtual
 ### Engenharia de Software -Turma 01/2017
  
- 
-**Author:** Paulo Roberto Moreira
+
+**Autor:** Paulo Roberto Moreira
  
  
 **Aplicação Frontend:** Android
