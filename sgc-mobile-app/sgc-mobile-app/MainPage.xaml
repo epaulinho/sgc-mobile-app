@@ -3,12 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:sgc_mobile_app"
              x:Class="sgc_mobile_app.MainPage">
+    <StackLayout Orientation="Vertical">
+        <StackLayout Padding="30,0,20,0">
+            <StackLayout Padding="0,10,0,0" BackgroundColor="LightGray">
+                <Label Text="Principal" TextColor="Black" FontSize="Medium" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <Label Text="" HorizontalOptions="Center" 
+                    VerticalOptions="StartAndExpand" x:Name="lblCumprimento" HeightRequest="30" />
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+        <StackLayout Padding="0,10,0,0" VerticalOptions="End">
+            <Label Text="Versão: 1.0.3" HorizontalTextAlignment="Center" FontSize="Micro"></Label>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
